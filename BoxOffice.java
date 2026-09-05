@@ -15,9 +15,9 @@ public class BoxOffice
 
         System.out.println("What is the name of the movie?");
         String movieName = keyboard.nextLine();
-        System.out.println("How many adult tickets were sold?");
+        System.out.println("\nHow many adult tickets were sold?");
         int adultSold = keyboard.nextInt();
-        System.out.println("How many child tickets were sold?");
+        System.out.println("\nHow many child tickets were sold?");
         int childSold = keyboard.nextInt();
 
         double grossProfit = adultTicket * adultSold + childTicket * childSold;
